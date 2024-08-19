@@ -7,7 +7,17 @@ Python SDK to interact with Zeta
 
 ## Local Development / Testing
 
-- Create and activate a virtual environment
+- Create a virtual environment
+
+```bash
+python3 -m venv myenv
+```
+
+- Activate the virtual environment
+
+```bash
+source myenv/bin/activate
+```
 - Run `pip install -r requirements-dev.txt` to do an editable install
 - Run `pytest` to run tests
 
